@@ -2,15 +2,20 @@
 
 > **Semana:** 4 · **Responsable:** Maria Paz Ugalde Araya · **Estado:** Borrador
 
-## Contexto organizacional
+## Descripción del problema
 
-> **Supuesto vigente:** mientras el equipo no consiga un caso real, el proyecto
-> toma como referencia a pequeñas organizaciones (Oficinas, negocios familiares) y personas que manejan información propia en computadoras de scritorio o portátiles. *(Reemplazar por el caso concreto cuando se confirme.)*
+Las personas y pequeñas organizaciones pierden información valiosa por no contar con respaldos ante fallas de equipo o software, robos, virus o borrados accidentales. Cuando ocurre una pérdida, la recuperación suele ser lenta, parcial o imposible, lo que afecta la continuidad de sus actividades, genera pérdida de tiempo y dinero, y reduce la confianza en sus sistemas.
+
+Muchas veces los respaldos no se hacen porque dependen de que alguien se acuerde de hacerlos, porque el proceso es complicado o porque nadie verifica si el respaldo realmente funcionó.
 
 ### Quién es la organización o el usuario
 Empresas pequeñas, oficinas o negocios familiares que no cuentan con un área de
 TI. Su información (documentos, facturas, bases de datos,
 registros de clientes) indispensables para operar a diario.
+
+## Oportunidad
+
+Ofrecer una herramienta sencilla y de bajo costo que automatice los respaldos, avise cuando algo falla y permita recuperar la información de forma rápida. Esto reduce la dependencia de la memoria del usuario, disminuye las pérdidas y facilita la recuperación ante cualquier incidente.
 
 ### Cómo maneja hoy su información
 - La información se guarda en los equipos locales de trabajo.
@@ -29,6 +34,9 @@ El proyecto se desarrolla en el marco del curso ISW-912 de la Universidad
 Técnica Nacional, por un equipo de dos integrantes, con fechas de entrega
 definidas por el curso.
 
+## Product Goal
+
+Que los usuarios puedan respaldar su información de forma automática y recuperarla de manera rápida y confiable cuando la necesiten.
 
 ## Restricciones
 
