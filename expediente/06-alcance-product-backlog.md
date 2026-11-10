@@ -49,7 +49,16 @@ Ordenado de mayor a menor prioridad. La estimación se clasifica en escala **1, 
 - **Después lo que ataca la causa del problema:** los respaldos automáticos (HU-06) eliminan la dependencia de que alguien se acuerde de hacerlos.
 - **Por último lo que da confianza:** historial, verificación y alertas (HU-07 a HU-09) reducen el riesgo de fallas no detectadas. Si el tiempo no alcanza, son las primeras en quedar para una versión futura sin afectar el funcionamiento básico.
 
+## Historias de usuario y criterios de aceptación
 
+### HU-01 · Configurar la carpeta de origen y el destino del respaldo (API-12)
+
+Como **usuario**  quiero **respaldar una carpeta y el destino donde se guardará el respaldo**, para **controlar qué información se protege y dónde queda guardada**.
+
+- El usuario puede seleccionar una carpeta de origen y una carpeta de destino.
+- El sistema valida que ambas rutas existan y que el destino no esté dentro del origen; si no son válidas, muestra un mensaje claro.
+- La configuración se guarda y sigue disponible al volver a abrir el programa.
+- El usuario puede ver y modificar la configuración guardada.
 
 
 
