@@ -60,5 +60,20 @@ Como **usuario**  quiero **respaldar una carpeta y el destino donde se guardará
 - La configuración se guarda y sigue disponible al volver a abrir el programa.
 - El usuario puede ver y modificar la configuración guardada.
 
+### HU-02 · Ejecutar un respaldo manual (API-13)
 
+Como **usuario**, quiero **ejecutar un respaldo manual cuando lo necesite** para **proteger información sencible**.
+
+- Se copia todo el contenido de la carpeta de origen, incluidas las subcarpetas que van hacia el destino.
+- Cada respaldo se guarda en una carpeta separada con fecha y hora, sin sobrescribir respaldos anteriores.
+- Mientras se ejecuta, el usuario ve que el proceso está en curso.
+- Si un archivo no se puede copiar lo que hace es que el respaldo continúa con los demás y el problema queda registrado.
+
+### HU-03 · Ver el resultado del respaldo (API-14)
+
+Como **usuario**, quiero **ver si el respaldo se ejecuto correctamente o falló**, para **saber si la información está realmente protegida**.
+
+- Al terminar, el sistema muestra un resumen: resultado (éxito, éxito parcial o fallo), cantidad de archivos copiados, tamaño total y duración.
+- Si hubo errores, el resumen indica cuántos archivos fallaron y por qué.
+- El resultado queda guardado en el archivo de registro (log) con fecha y hora.
 
