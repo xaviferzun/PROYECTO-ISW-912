@@ -77,3 +77,29 @@ Como **usuario**, quiero **ver si el respaldo se ejecuto correctamente o falló*
 - Si hubo errores, el resumen indica cuántos archivos fallaron y por qué.
 - El resultado queda guardado en el archivo de registro (log) con fecha y hora.
 
+### HU-04 · Restaurar un respaldo completo (API-15)
+
+Como **usuario**, quiero **restaurar un respaldo completo a una carpeta que yo elija**, para **recuperar toda mi información después de una pérdida**.
+
+- El sistema muestra la lista de respaldos disponibles ordenados por fecha.
+- El usuario elige un respaldo y una carpeta de destino para la restauración.
+- Si en el destino ya existen archivos con el mismo nombre, el sistema pide confirmación antes de reemplazarlos.
+- Al terminar, muestra cuántos archivos se restauraron y si hubo errores, y lo registra en el log.
+
+### HU-05 · Restaurar archivos específicos de un respaldo (API-16)
+
+Como **usuario**, quiero **restaurar solo algunos archivos o carpetas de un respaldo**, para **recuperar lo que borré por accidente sin reemplazar todo lo demás**.
+
+- El usuario puede explorar el contenido de un respaldo y seleccionar uno o varios archivos o carpetas.
+- Solo se restauran los elementos seleccionados, manteniendo su estructura de carpetas.
+- Se aplica la misma confirmación de reemplazo que en HU-04.
+- La operación queda registrada en el log.
+
+### HU-06 · Programar respaldos automáticos (API-17)
+
+Como **usuario**, quiero **programar respaldos automáticos con la frecuencia que yo elija**, para **no depender de acordarme de hacerlos**.
+
+- El usuario puede elegir una frecuencia (diaria o semanal) y una hora.
+- El respaldo se ejecuta automáticamente a la hora programada.
+- El usuario puede ver la próxima ejecución programada y desactivar la programación.
+- Cada ejecución automática queda registrada igual que un respaldo manual.
