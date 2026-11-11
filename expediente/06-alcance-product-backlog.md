@@ -103,3 +103,28 @@ Como **usuario**, quiero **programar respaldos automáticos con la frecuencia qu
 - El respaldo se ejecuta automáticamente a la hora programada.
 - El usuario puede ver la próxima ejecución programada y desactivar la programación.
 - Cada ejecución automática queda registrada igual que un respaldo manual.
+
+
+### HU-07 · Consultar el historial de respaldos (API-18)
+
+Como **usuario**, quiero **consultar el historial de respaldos** para **saber cuándo fue la última vez que se respaldó la ultima copia de información**.
+
+- El sistema muestra una lista de operaciones con fecha y hora como:  manual o restauración, resultado y cantidad de archivos.
+- La lista está ordenada de la más reciente a la más antigua.
+- Se destaca la fecha del último respaldo exitoso.
+
+### HU-08 · Verificar la integridad de un respaldo (API-19)
+
+Como **usuario**, quiero **comprobar que un respaldo está completo y sin daños**, para **tener la seguridad de que podré restaurarlo cuando lo necesite**.
+
+- Al crear un respaldo, el sistema guarda una huella (hash) de cada archivo.
+- El usuario puede pedir la verificación de un respaldo; el sistema compara las huellas y reporta si está íntegro o qué archivos faltan o cambiaron.
+- El resultado de la verificación queda registrado en el historial.
+
+### HU-09 · Recibir una alerta cuando un respaldo falla (API-20)
+
+Como **usuario**, quiero **recibir una alerta cuando un respaldo automático falla o no se ejecuta**, para **corregir el problema antes de perder información**.
+
+- Si un respaldo termina con fallo o éxito parcial, el sistema muestra una notificación visible.
+- Si pasan más días de los configurados sin un respaldo exitoso, el sistema avisa al abrirse.
+- La alerta indica qué pasó y qué puede hacer el usuario (por ejemplo, "El destino no está disponible: conecte el disco externo").
