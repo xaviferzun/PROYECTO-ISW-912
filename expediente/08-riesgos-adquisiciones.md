@@ -62,3 +62,31 @@ El seguimiento de los riesgos se realizará durante todo el ciclo de vida del pr
 | Bibliotecas y dependencias | Implementación de las funciones de respaldo, restauración, programación y verificación. | Software libre o gratuito | Evita desarrollar desde cero funcionalidades que pueden resolverse con herramientas existentes. |
 | Almacenamiento local | Guardar respaldos y realizar pruebas de recuperación. | Recurso disponible | Permite comprobar el funcionamiento sin contratar infraestructura externa. |
 | Discos externos | Simular destinos físicos para los respaldos. | Recurso disponible, sujeto a disponibilidad | Permite probar la copia y recuperación de información en dispositivos externos. |
+
+### Proceso de selección de recursos
+
+La selección de herramientas y recursos se realiza considerando los siguientes criterios:
+
+- **Costo:** Se priorizan herramientas gratuitas o de código abierto.
+- **Compatibilidad:** Deben funcionar con las tecnologías seleccionadas para el desarrollo del producto.
+- **uUso:** Prmitir que los integrantes trabajen sin configuraciones excesivamente complejas.
+- **Confiabilidad:** Contar con documentación y condiciones de uso que permitan utilizarlas durante el proyecto.
+- **Seguridad:** Evitar exponer información sensible y que comprometa la integridad de los respaldos.
+
+Antes de incorporar una nueva biblioteca o herramienta el equipo revisará compatibilidad, licencia y requisitos de instalación.
+
+### Gestión de proveedores
+
+El proyecto no requiere actualmente proveedores externos ya que no se contempla contratar almacenamiento en la nube ni adquirir servicios comerciales. Si en futuras etapas se identifica la necesidad de utilizar un servicio externo, se evaluarán sus condiciones de uso, costos, disponibilidad, seguridad y compatibilidad con el producto.
+
+
+### Criterios de aceptación de los recursos
+
+Para considerar que una herramienta este disponible para utilizarse deberá cumplir con las siguientes condiciones:
+
+- Estar correctamente instalado o configurado.
+- Ser compatible con el entorno de desarrollo.
+- Permitir realizar las actividades para las que fue seleccionado.
+- No generar costos adicionales en el proyecto.
+- Contar con documentación suficiente para facilitar su utilización y mantenimiento.
+
