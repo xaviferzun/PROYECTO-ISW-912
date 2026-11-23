@@ -1,6 +1,6 @@
 # Acta de Sprint Review y Sprint Retrospective · Sprint 1
 
-> **Proyecto:** Sistema de Respaldo y Recuperación de Información · **Jira:** API-26 · **Elaborada por:** [PENDIENTE]
+> **Proyecto:** Sistema de Respaldo y Recuperación de Información · **Jira:** API-26 · **Elaborada por:** Xavier Fernández Zúñiga y María Paz Ugalde Araya
 
 ## Parte 1. Sprint Review
 
@@ -9,11 +9,11 @@
 | Campo | Detalle |
 |---|---|
 | Sprint | Sprint 1 ("API Sprint 1" en Jira), del 1 al 10 de noviembre de 2026 |
-| Fecha de la Review | [PENDIENTE] |
-| Duración | [PENDIENTE] |
-| Medio | [PENDIENTE] (presencial, Meet, etc.) |
+| Fecha de la Review | 18 de noviembre de 2026 |
+| Duración | 45 minutos en total, junto con la Retrospective |
+| Medio | Llamada por Google Meet |
 | Equipo | Xavier Fernández Zúñiga (Product Owner y Developer), María Paz Ugalde Araya (Scrum Master y Developer) |
-| Interesados invitados | [PENDIENTE] (por ejemplo, el docente del curso) |
+| Interesados invitados | Ninguno. Participó solo el equipo |
 
 ### Sprint Goal
 
@@ -59,11 +59,11 @@ La Definition of Done formal todavía no está escrita (Sección 09, en curso). 
 
 | Interesado | Comentario | Qué se hace con el comentario |
 |---|---|---|
-| [PENDIENTE] | [PENDIENTE] | [PENDIENTE] |
+| — | En esta Review no hubo interesados externos, solo el equipo | La retroalimentación del docente se recoge en la entrega del 25 de noviembre y se registra en la Sección 12 |
 
 ### Cambios al Product Backlog acordados
 
-> Decisiones del Product Owner. [PENDIENTE: confirmarlas en la Review y ajustar si se decide algo distinto.]
+> Decisiones del Product Owner, confirmadas por el equipo en la Review del 18 de noviembre.
 
 1. **Reducir el alcance de la entrega (CR-03).** La entrega se enfoca en respaldar y recuperar: HU-01, HU-02, HU-03 y HU-04 (13 de 32 puntos). HU-05 a HU-09 quedan diferidas y solo se trabajan si sobra tiempo. Detalle en la [Sección 11](../../../expediente/11-decisiones-cambios-evidencias.md).
 2. **API-11 vuelve a *Por hacer*.** Se marcó como lista sin tener código.
@@ -74,7 +74,7 @@ La Definition of Done formal todavía no está escrita (Sección 09, en curso). 
 
 Comparación con el cronograma de la [Sección 07](../../../expediente/07-planificacion-estimaciones-costos.md):
 
-| Sprint | Lo planificado | Lo real al 22 de noviembre |
+| Sprint | Lo planificado | Lo real al 18 de noviembre |
 |---|---|---|
 | Sprint 1 | Base técnica y prueba de copia | No se logró |
 | Sprint 2 (hasta 10 nov) | HU-01 a HU-03: respaldo manual (8 puntos) | No se empezó |
@@ -82,7 +82,7 @@ Comparación con el cronograma de la [Sección 07](../../../expediente/07-planif
 
 - **Producto:** según el plan, para el 17 de noviembre debían estar terminados 16 de 32 puntos. Hay 0. El proyecto va unos dos Sprints atrasado.
 - **Expediente:** Secciones 00 a 07 y 10 subidas. La 08 y la 09 están incompletas. La 11 y la 12 no se han empezado.
-- **Entrega:** Semana 11, el [PENDIENTE: fecha exacta]. Con el cambio CR-03, el objetivo de la entrega es tener HU-01 a HU-04 funcionando y el Expediente completo.
+- **Entrega:** Semana 11, el miércoles 25 de noviembre de 2026. Con el cambio CR-03, el objetivo de la entrega es tener HU-01 a HU-04 funcionando y el Expediente completo.
 
 ## Parte 2. Sprint Retrospective
 
@@ -90,7 +90,7 @@ Comparación con el cronograma de la [Sección 07](../../../expediente/07-planif
 
 | Campo | Detalle |
 |---|---|
-| Fecha y duración | [PENDIENTE] |
+| Fecha y duración | 18 de noviembre de 2026, en la misma llamada de Google Meet, después de la Review |
 | Facilitadora | María Paz Ugalde Araya (Scrum Master) |
 | Participantes | Xavier Fernández Zúñiga, María Paz Ugalde Araya |
 | Formato | Start / Stop / Continue |
@@ -114,12 +114,12 @@ Se revisa cómo trabajamos como equipo, no a las personas. Cada punto tiene su e
 | La decisión técnica se quedó sin tomar todo el Sprint y bloqueó el objetivo | API-8 estuvo en *Por hacer* del 1 al 10 de noviembre |
 | El trabajo se juntó al final | Del 1 al 9 de noviembre hubo 1 commit. Los otros 5 commits del Sprint llegaron el 10 de noviembre, último día |
 | Los commits no se pueden rastrear hasta su tarea | Desde el 28 de octubre, 13 de 17 commits no llevan la clave de Jira |
-| El Sprint no se cerró en su fecha | El Sprint venció el 10 de noviembre y seguía abierto el 22 de noviembre |
-| [PENDIENTE: ¿se hizo el Daily? Revisar el chat del equipo] | [PENDIENTE] |
+| El Sprint no se cerró en su fecha | El Sprint venció el 10 de noviembre y seguía abierto el día de la Review (18 de noviembre) |
+| No hicimos Daily. Solo hablábamos cuando pasaba algo importante, y por eso nadie notó a tiempo que la tecnología seguía sin decidirse | No hay mensajes de Daily en el chat del equipo durante el Sprint. El bloqueo de API-8 duró todo el Sprint |
 
 ### Start: lo que vamos a empezar a hacer
 
-Las acciones de mejora de la tabla siguiente.
+Las acciones de mejora de la tabla siguiente. Además, el Daily se hará por WhatsApp los lunes, miércoles y viernes, según el Working Agreement 3 de la [Sección 10](../../../expediente/10-comunicacion-responsabilidades.md).
 
 ### Seguimiento de las acciones del Sprint anterior
 
@@ -137,11 +137,11 @@ No aplica. Es el primer Sprint del proyecto y no había acciones anteriores. Las
 
 Las tres acciones ya están creadas en Jira con la etiqueta `retro-s1` y `sprint-2`: API-36, API-37 y API-38. Entran al Sprint 2 junto con API-8, API-9, API-11, HU-01 a HU-04 y los pendientes del Expediente (API-39 a API-44).
 
-[PENDIENTE: cerrar el Sprint 1 en Jira, crear el Sprint 2 con sus fechas y mover estos tickets.]
+El 22 de noviembre se cerró el Sprint 1 en Jira y se inició el Sprint 2 (18 al 24 de noviembre) con estos tickets.
 
 ## Aprobación
 
 | Rol | Nombre | Aprobado |
 |---|---|---|
-| Product Owner | Xavier Fernández Zúñiga | [PENDIENTE] |
-| Scrum Master | María Paz Ugalde Araya | [PENDIENTE] |
+| Product Owner | Xavier Fernández Zúñiga | Sí, 18 de noviembre de 2026 |
+| Scrum Master | María Paz Ugalde Araya | Sí, 18 de noviembre de 2026 |
