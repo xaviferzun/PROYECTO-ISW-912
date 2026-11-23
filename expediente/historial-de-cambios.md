@@ -19,7 +19,12 @@
 | 11 nov 2026 | 07 Planificación | Estimaciones, cronograma y costos | María Paz | API-27 | `90e9be0` |
 | 12–14 nov 2026 | 08 Riesgos | Matriz de riesgos, seguimiento y plan de adquisiciones (3 commits) | María Paz | API-28 | `03303f0` a `09ecf1d` |
 | 14 nov 2026 | 09 Calidad | Criterios de calidad | María Paz | API-29 | `7a688ab` |
-| [fecha del commit] | Acta Sprint 1 | Acta de Sprint Review y Sprint Retrospective del Sprint 1 | [PENDIENTE] | API-26 | [este commit] |
-| [fecha del commit] | 11 Cambios | Flujo de cambios y Registro de Solicitudes de Cambio (CR-01 a CR-04) | [PENDIENTE] | API-39 | [este commit] |
-| [fecha del commit] | 10 Comunicación | Working Agreements, versión 1 | Xavier y María Paz | API-40 | [este commit] |
-| [fecha del commit] | Historial de cambios | Creación de este archivo | [PENDIENTE] | API-41 | [este commit] |
+| 22 nov 2026 | Acta Sprint 1 | Acta de Sprint Review y Sprint Retrospective del Sprint 1 (reunión del 18 nov) | Xavier | API-26 | `d38147e` |
+| 22 nov 2026 | 11 Cambios | Flujo de cambios y Registro de Solicitudes de Cambio (CR-01 a CR-04) | Xavier | API-39 | `9e61532` |
+| 22 nov 2026 | Historial de cambios | Creación de este archivo | Xavier | API-41 | `988ff63` |
+| 22 nov 2026 | Producto (`src/`, `tests/`) | MVP: estructura en Python, respaldo y restauración con log, 9 pruebas automáticas y ventana (HB-02, HB-04, HU-01 a HU-04) | Xavier | API-9, API-11, API-12 a API-15 | `2f4fdbf`, `6f06c62`, `238fc5e` |
+| 22 nov 2026 | 04, 05, 06 y 07 | Fechas reales de los Sprints, Sprint Backlog del Sprint 2, alcance del MVP (CR-02, CR-03) y costo estimado | Xavier | API-43 | `7c40a3a` |
+| 22 nov 2026 | 10 Comunicación | Working Agreements, versión 1, con puño de cinco | Xavier y María Paz | API-40 | `9ec400b` |
+| 22 nov 2026 | Acta Sprint 1 y 11 Cambios | Datos de la reunión, Daily, aprobación del acta y de CR-03 | Xavier | API-26 | `37aa799` |
+| 22 nov 2026 | 11 Decisiones y evidencias | Registro de decisiones D-01 a D-06, tabla de evidencias y guion de la Demo | Xavier | API-31, API-33 | `81de388` |
+| 22 nov 2026 | Historial de cambios | Fechas y commits reales de las filas del 22 de noviembre | Xavier | API-41 | este commit |
