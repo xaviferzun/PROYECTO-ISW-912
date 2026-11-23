@@ -18,6 +18,24 @@ Sistema de Respaldo y Recuperación de Información: pérdida de información po
 | Xavier Fernández | Por definir |
 
 
+## Cómo ejecutar el producto
+
+Requisitos: Python 3.10 o superior (en Windows ya incluye Tkinter). No hay que instalar librerías.
+
+```powershell
+python src/main.py
+```
+
+Pruebas automáticas de la lógica de respaldo:
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+La configuración y el log se guardan en la carpeta `.sistema-respaldo` dentro de la carpeta del usuario.
+
+**Funciones de esta versión:** configurar origen y destino (HU-01), respaldar a una carpeta con fecha (HU-02), ver el resultado y el log (HU-03) y restaurar un respaldo completo (HU-04).
+
 ## Estructura del repositorio
 
 | Carpeta | Contenido |
