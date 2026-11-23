@@ -1,10 +1,19 @@
 # Sección 11 — Decisiones, cambios y evidencias
 
-> **Semana:** 10 (Registro de Solicitudes de Cambio) · 12 (resto de la sección) · **Responsable:** Xavier Fernández Zúñiga · **Estado:** Borrador · **Jira:** API-39
+> **Semana:** 10 (Registro de Solicitudes de Cambio) · 12 (resto de la sección) · **Responsable:** Xavier Fernández Zúñiga · **Estado:** Borrador · **Jira:** API-39, API-31, API-33
 
 ## Registro de decisiones
 
-_Pendiente._
+Decisiones que afectan el producto o la forma de trabajar. Los cambios de alcance o de fecha tienen además su CR en la tabla de [Control de cambios](#control-de-cambios).
+
+| ID | Fecha | Decisión | Alternativas que se descartaron | Por qué | Quién decidió | Evidencia |
+|---|---|---|---|---|---|---|
+| D-01 | 28 oct 2026 | Usar Jira (plan gratuito) para el backlog, los Sprints y el tablero | GitHub Projects, Trello | Tiene Sprints, tablero y reportes ágiles sin costo, y se conecta con el repositorio por la clave del ticket | Equipo | CR-01, [Sección 05](05-backlog-sprint-backlog.md) |
+| D-02 | 18 nov 2026 | Entregar un MVP con HU-01 a HU-04 | Intentar las 9 historias | Al cierre del Sprint 1 no había código. Con respaldar y restaurar ya se cumple lo central del Product Goal | Product Owner | CR-03, [acta del Sprint 1](../scrum/sprints/sprint-01/acta-review-retrospective.md) |
+| D-03 | 22 nov 2026 | El producto es una aplicación de escritorio en Python 3 con Tkinter, usando solo la librería estándar | Aplicación web; script de línea de comandos | No necesita servidor ni instalar librerías, funciona en Windows, Linux y macOS, y los datos no salen de la computadora del usuario (restricciones de presupuesto y privacidad de la [Sección 02](02-contexto-restricciones.md)). Una ventana es más fácil de usar que la línea de comandos para alguien no técnico | Product Owner, en la sesión técnica | API-8, API-37, commit `2f4fdbf` |
+| D-04 | 22 nov 2026 | Cada respaldo se guarda en una carpeta nueva con la fecha y la hora (`respaldo_AAAA-MM-DD_HH-MM-SS`) y un `manifiesto.json` con la lista de archivos | Sobrescribir siempre el mismo respaldo | No se pierden versiones anteriores y se puede elegir cuál restaurar (HU-04) | Equipo | `src/respaldo/nucleo.py`, prueba `test_respaldos_no_se_sobrescriben` |
+| D-05 | 22 nov 2026 | Si un archivo no se puede copiar, el respaldo sigue con los demás y termina como *EXITO PARCIAL*, con el archivo anotado en el log | Detener todo el respaldo ante el primer error | Un solo archivo abierto o bloqueado no debe dejar sin respaldo el resto de la información | Equipo | Prueba `test_un_archivo_con_error_no_detiene_el_respaldo` |
+| D-06 | 22 nov 2026 | Antes de restaurar, el sistema avisa si hay archivos con el mismo nombre en el destino y pide confirmación para reemplazarlos | Reemplazar sin preguntar | Evita borrar por accidente una versión más nueva de un archivo | Equipo | Criterios de HU-04 en la [Sección 06](06-alcance-product-backlog.md), prueba `test_restaurar_pide_confirmacion_si_hay_archivos_iguales` |
 
 ## Control de cambios
 
@@ -40,8 +49,38 @@ Un cambio aprobado no entra al Sprint en curso salvo que el equipo esté de acue
 
 ## Evidencias
 
-- Acta de Sprint Review y Retrospective del Sprint 1: [`scrum/sprints/sprint-01/acta-review-retrospective.md`](../scrum/sprints/sprint-01/acta-review-retrospective.md)
+| Evidencia | Dónde está |
+|---|---|
+| Acta de Sprint Review y Retrospective del Sprint 1 | [`scrum/sprints/sprint-01/acta-review-retrospective.md`](../scrum/sprints/sprint-01/acta-review-retrospective.md) |
+| Código del MVP | [`src/`](../src) (cómo ejecutarlo en el [README](../README.md)) |
+| Pruebas automáticas (9 pruebas, todas pasan) | [`tests/test_nucleo.py`](../tests/test_nucleo.py) |
+| Relación entre commits y tickets | `git log`: los commits del Sprint 2 empiezan con la clave `API-` |
+| Working Agreements firmados por los dos | [Sección 10](10-comunicacion-responsabilidades.md), commit `9ec400b` con `Co-authored-by` |
+| Historial de cambios del Expediente | [`historial-de-cambios.md`](historial-de-cambios.md) |
+| Tablero de Jira | Proyecto `API` en Jira, captura en `evidencias/` |
 
 ## Preparación de la Demo
 
-_Pendiente._
+**Qué se muestra:** el MVP funcionando de punta a punta: configurar, respaldar, ver el resultado, perder un archivo y recuperarlo. Duración: unos 5 minutos.
+
+**Antes de la Demo**
+
+- Una carpeta `demo-origen` con 4 archivos: `clientes.txt`, `notas de reunión.txt` y una subcarpeta `Facturas` con `factura-001.txt` y `factura-002.txt`. Los nombres con espacios, tildes y subcarpetas muestran que el respaldo los soporta.
+- Una carpeta `demo-destino` vacía.
+- Probar una vez que `python src/main.py` abre la ventana en la computadora de la exposición.
+
+**Guion**
+
+| # | Paso | Historia | Qué debe verse |
+|---|---|---|---|
+| 1 | Abrir la aplicación con `python src/main.py` | — | La ventana con las tres partes: Configuración, Respaldo y Respaldos disponibles |
+| 2 | Elegir `demo-origen` y `demo-destino` y guardar la configuración | HU-01 | Abajo aparece "Configuración guardada.". Si una carpeta no existe, el sistema muestra un aviso |
+| 3 | Clic en *Respaldar ahora* | HU-02 | La barra de avance y luego el mensaje *EXITO* con 4 archivos |
+| 4 | Clic en *Ver log* | HU-03 | La línea del respaldo con fecha, estado, cantidad de archivos y tamaño |
+| 5 | Borrar `clientes.txt` de `demo-origen` | — | El archivo ya no está |
+| 6 | Elegir el respaldo en la lista y clic en *Restaurar...*, con `demo-origen` como destino | HU-04 | El aviso de archivos con el mismo nombre; al confirmar, `clientes.txt` vuelve a aparecer |
+| 7 | Correr `python -m unittest discover -s tests -v` | — | Las 9 pruebas pasan |
+
+**Si algo falla en la exposición:** se muestran las pruebas automáticas y el log en `~/.sistema-respaldo/respaldos.log`, que dejan evidencia de que el respaldo y la restauración funcionan.
+
+**Qué no incluye esta versión:** restaurar archivos sueltos, respaldos automáticos, verificación de integridad y alertas (HU-05 a HU-09, diferidas por CR-03).
