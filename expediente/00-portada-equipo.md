@@ -1,6 +1,6 @@
 # Sección 00 — Portada e identificación del equipo
 
-> **Semana:** 3 · **Responsable:** María Paz Ugalde Araya · **Estado:** Borrador
+> **Semana:** 3 · **Responsable:** María Paz Ugalde Araya · **Estado:** Borrador · **Jira:** API-44
 
 ## Datos del proyecto
 
@@ -21,7 +21,7 @@
 
 | Integrante | Carné | Rol Scrum | Correo |
 |---|---|---|---|
-| María Paz Ugalde Araya | _por completar_ | _Scrum Master_ · Developer | ugaldemariapaz4@gmail.com |
+| María Paz Ugalde Araya | [PENDIENTE: carné de María Paz] | _Scrum Master_ · Developer | ugaldemariapaz4@gmail.com |
 | Xavier Fernández Zúñiga | 208540653 | _Product Owner_ · Developer | xaviferzun@gmail.com |
 
 
@@ -67,3 +67,4 @@ El alcance confirmado se detalla en la [Sección 06](06-alcance-product-backlog.
 - Docente del curso.
 - Scrum Team.
 - El análisis completo de interesados está en la [Sección 03](03-interesados.md).
+ 
