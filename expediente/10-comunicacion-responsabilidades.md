@@ -85,7 +85,44 @@ El Sprint 1 (1 al 10 de noviembre) tiene cargadas las historias habilitadoras (H
 
 ## Matriz de responsabilidades (RACI)
 
-> Se completará en la Semana 11.
+Define quién hace, quién responde y a quién se consulta o informa en cada actividad. Se basa en los roles Scrum de la [Sección 00](00-portada-equipo.md), en el reparto del Sprint Backlog de la [Sección 05](05-backlog-sprint-backlog.md) y en los responsables de cada sección del Expediente.
+
+| Letra | Significado |
+|---|---|
+| **R** (Responsable) | Hace el trabajo. Puede haber más de una persona. |
+| **A** (Aprobador) | Responde por el resultado y decide. **Hay una sola A por actividad.** Se escribe **A/R** cuando quien responde también hace el trabajo. |
+| **C** (Consultado) | Da su opinión antes de cerrar la actividad. |
+| **I** (Informado) | Se entera del resultado. |
+| — | No participa. |
+
+| # | Actividad | Xavier (Product Owner) | María Paz (Scrum Master) | Docente |
+|---|---|:---:|:---:|:---:|
+| 1 | Mantener el Product Backlog en Jira: orden, estimación y criterios de aceptación | A | R | I |
+| 2 | Sprint Planning: Sprint Goal y Sprint Backlog | R | A | — |
+| 3 | Daily Scrum por WhatsApp | R | A/R | — |
+| 4 | Desarrollo del producto en `src/` y `tests/` | A/R | C | I |
+| 5 | Revisión por pares y comentario «Revisado» en cada tarjeta | R | A/R | — |
+| 6 | Pruebas automáticas y prueba manual en cada máquina (Sección 09) | R | A/R | — |
+| 7 | Sprint Review: mostrar lo terminado y aceptar o devolver cada historia | A/R | R | I |
+| 8 | Sprint Retrospective y acciones de mejora | R | A/R | — |
+| 9 | Gestión de riesgos y problemas (Sección 08) | R | A/R | — |
+| 10 | Decisiones y control de cambios (Sección 11) | A/R | C | C |
+| 11 | Tablero de Jira: tarjetas, impedimentos y cierre de cada Sprint a tiempo | C | A/R | I |
+| 12 | Secciones 00, 01, 02, 06, 07, 08 y 09 del Expediente | C | A/R | C |
+| 13 | Secciones 03, 04, 05, 10 y 11 del Expediente | A/R | C | C |
+| 14 | Sección 12 e Informe Final | C | A/R | I |
+| 15 | Actas de los eventos Scrum, evidencias e historial de cambios | A/R | C | I |
+| 16 | Preparación y presentación de la Demo | A/R | R | I |
+| 17 | Defensa oral | A/R | R | I |
+
+### Cómo se leyó la matriz
+
+- **Producto:** el Product Owner responde por el backlog, el desarrollo, la Review, los cambios y la Demo. Todas las historias del Sprint 2 están asignadas a Xavier en la [Sección 05](05-backlog-sprint-backlog.md), por eso María Paz aparece como consultada en el desarrollo y como revisora en la actividad 5.
+- **Proceso:** la Scrum Master responde porque los eventos se hagan, la revisión por pares se cumpla y los Sprints se cierren a tiempo. Son los puntos que fallaron en el Sprint 1 ([acta](../scrum/sprints/sprint-01/acta-review-retrospective.md)).
+- **Expediente:** cada sección la responde quien aparece como responsable en su encabezado, y la otra persona la revisa antes de pasar la tarjeta a *Hecho*. Por eso queda como C.
+- **Docente:** evalúa el trabajo. En la matriz aparece como informado de lo que recibe (commits, Jira, Review, Demo) y como consultado en el Expediente, que se revisa con él cada clase y en los cambios que mueven una fecha de entrega.
+- **Sección 12:** el encabezado de esa sección dice «por definir». Se asignó a María Paz como propuesta. [PENDIENTE: confirmar quién responde por la Sección 12 y el Informe Final.]
+- **Desacuerdos:** si dos personas no se ponen de acuerdo sobre quién responde por una actividad, se aplican los Working Agreements 8 y 9 de esta sección.
 
 ## Working Agreements
 
