@@ -1,6 +1,6 @@
 # Sección 05 — Backlog inicial, Sprint Backlog y mecanismo de seguimiento
 
-> **Semana:** 6 · **Responsable:** Xavier Fernández Zúñiga · **Estado:** Borrador · **Jira:** API-24
+> **Semana:** 6 · **Responsable:** Xavier Fernández Zúñiga · **Estado:** Borrador · **Jira:** API-24, API-43
 
 ## Backlog inicial
 
@@ -29,7 +29,7 @@ El detalle de cada historia de usuario, su prioridad y sus criterios de aceptaci
 
 ## Sprint Backlog — Sprint 1
 
-**Fechas:** 28 de octubre al 3 de noviembre de 2026
+**Fechas:** 1 al 10 de noviembre de 2026 (CR-02)
 
 > **Sprint Goal:** Dejar lista la base técnica del proyecto y comprobar que el sistema puede copiar una carpeta a un destino y registrar el resultado.
 
@@ -65,6 +65,38 @@ flowchart LR
     HB03["HB-03<br/>Tablero Jira"] --> S05["Sección 05<br/>Captura del tablero"]
 ```
 
+## Sprint Backlog — Sprint 2
+
+**Fechas:** 18 al 24 de noviembre de 2026
+
+> **Sprint Goal:** Entregar un MVP que permita configurar, respaldar y restaurar una carpeta con registro en log (HU-01 a HU-04), y completar el Expediente para la entrega final.
+
+El Sprint 1 no cumplió su objetivo, así que las habilitadoras sin terminar pasaron a este Sprint. Por CR-03 solo se tomaron las historias HU-01 a HU-04.
+
+| Jira | Elemento | Responsable | Puntos |
+|---|---|---|---|
+| API-8 | HB-01 · Definir la tecnología del producto | Xavier | 2 |
+| API-9 | HB-02 · Entorno y estructura del código en `src/` | Xavier | 2 |
+| API-11 | HB-04 · Prueba técnica: copiar una carpeta y registrar el resultado | Xavier | 3 |
+| API-12 | HU-01 · Configurar la carpeta de origen y el destino | Xavier | 3 |
+| API-13 | HU-02 · Ejecutar un respaldo manual | Xavier | 3 |
+| API-14 | HU-03 · Ver el resultado del respaldo | Xavier | 2 |
+| API-15 | HU-04 · Restaurar un respaldo completo | Xavier | 5 |
+| API-24 | Sección 05 — Backlog y seguimiento | Xavier | — |
+| API-26 | Acta de Review y Retrospective del Sprint 1 | Xavier | — |
+| API-29 | Sección 09 — Calidad, Definition of Done y validación | María Paz | — |
+| API-36 | Retro: revisión de la compañera antes de *Hecho* | María Paz | — |
+| API-37 | Retro: sesión técnica, tecnología y esqueleto del código | Xavier | — |
+| API-38 | Retro: commits con la clave de Jira | Xavier | — |
+| API-39 | Sección 11 — Registro de Solicitudes de Cambio | Xavier | — |
+| API-40 | Sección 10 — Working Agreements | Xavier | — |
+| API-41 | Historial de cambios del Expediente | Xavier | — |
+| API-42 | Sección 08 — Plan de mitigación de riesgos | María Paz | — |
+| API-43 | Fechas y alcance en las Secciones 04, 05 y 07 | Xavier | — |
+| API-44 | Ajustes menores (captura del tablero, carné, errores de redacción) | María Paz | — |
+
+Trabajo de producto: 20 puntos (7 de habilitadoras que vienen del Sprint 1 y 13 de historias de usuario).
+
 ## Mecanismo de seguimiento
 
 El equipo da seguimiento al trabajo con **Jira (plan gratuito)**, conectado con el repositorio de GitHub mediante las claves de los tickets.
@@ -79,7 +111,7 @@ El equipo da seguimiento al trabajo con **Jira (plan gratuito)**, conectado con 
 
 | Elemento | Uso |
 |---|---|
-| **Tablero del Sprint** | Columnas *Por hacer*, *En curso* y *Listo*. Cada integrante mueve sus tarjetas cuando cambia el estado de su trabajo. |
+| **Tablero del Sprint** | Columnas *Por hacer*, *En progreso*, *En revisión* y *Hecho*, con un límite de 2 tarjetas en *En progreso* (WIP). Cada integrante mueve sus tarjetas cuando cambia el estado de su trabajo. |
 | **Responsable y fecha** | Cada ticket tiene un responsable y una fecha de entrega, visibles en el tablero. |
 | **Etiquetas** | `sprint-1`, `sprint-2`… para planificar; `expediente`, `producto`, `habilitadora` y `cierre` para filtrar por tipo de trabajo. |
 | **Daily Scrum** | Chequeo corto por mensaje (qué avancé, qué haré, qué me bloquea). Un bloqueo se marca en Jira con la bandera *Impediment*. |
@@ -89,7 +121,7 @@ El equipo da seguimiento al trabajo con **Jira (plan gratuito)**, conectado con 
 
 ### Regla de "Listo"
 
-Un elemento pasa a *Listo* solo cuando cumple todos sus criterios de aceptación y su resultado está subido al repositorio. La Definition of Done completa se definirá en la Sección 09.
+Un elemento pasa a *Hecho* solo cuando cumple sus criterios de aceptación, su resultado está subido al repositorio y el otro integrante lo revisó (acción API-36 de la Retrospective del Sprint 1). La Definition of Done completa está en la [Sección 09](09-calidad-dod.md).
 
 ![Tablero de Jira — Sprint 1](../evidencias/jira-sprint-01.png)
 

@@ -1,6 +1,6 @@
 # Sección 07 — Planificación temporal, estimaciones y costos
 
-> **Semana:** 8 · **Responsable:** Maria Paz Ugalde Araya · **Estado:** Borrador
+> **Semana:** 8 · **Responsable:** Maria Paz Ugalde Araya · **Estado:** Borrador · **Jira:** API-27, API-43
 
 ## Estimaciones
 
@@ -15,13 +15,15 @@ Se utiliza la escala de 1 al 5, de acuerdo con el esfuerzo relativo y la incerti
 | HU-01 | API-12 | Configurar la carpeta de origen y el destino del respaldo | 3 | Sprint 2 |
 | HU-02 | API-13 | Ejecutar un respaldo manual | 3 | Sprint 2 |
 | HU-03 | API-14 | Ver el resultado del respaldo | 2 | Sprint 2 |
-| HU-04 | API-15 | Restaurar un respaldo completo | 5 | Sprint 3 |
-| HU-05 | API-16 | Restaurar archivos específicos de un respaldo | 3 | Sprint 3 |
-| HU-06 | API-17 | Programar respaldos automáticos | 5 | Sprint 4 |
-| HU-07 | API-18 | Consultar el historial de respaldos | 3 | Sprint 4 |
-| HU-08 | API-19 | Verificar la integridad de un respaldo | 5 | Sprint 5 |
-| HU-09 | API-20 | Recibir una alerta cuando un respaldo falla | 3 | Sprint 5 |
+| HU-04 | API-15 | Restaurar un respaldo completo | 5 | Sprint 2 |
+| HU-05 | API-16 | Restaurar archivos específicos de un respaldo | 3 | Fuera del MVP (CR-03) |
+| HU-06 | API-17 | Programar respaldos automáticos | 5 | Fuera del MVP (CR-03) |
+| HU-07 | API-18 | Consultar el historial de respaldos | 3 | Fuera del MVP (CR-03) |
+| HU-08 | API-19 | Verificar la integridad de un respaldo | 5 | Fuera del MVP (CR-03) |
+| HU-09 | API-20 | Recibir una alerta cuando un respaldo falla | 3 | Fuera del MVP (CR-03) |
 | | | **Total** | **32** | |
+
+Después de la Review del Sprint 1 aprobamos CR-03: el MVP incluye solo HU-01 a HU-04, que suman **13 puntos y 44 horas**. HU-05 a HU-09 (19 puntos y 60 horas) siguen en el Product Backlog para una versión futura.
 
 Las historias HU-04, HU-06 y HU-08 reciben 5 puntos ya que tienen mayor complejidad: requieren controlar la recuperación de archivos, ejecutar procesos programados o comparar huellas digitales para verificar la integridad. Las historias con menor puntuación tienen un alcance más delimitado.
 
@@ -50,14 +52,14 @@ El proyecto utiliza un ciclo de vida híbrido: mantiene una planificación gener
 
 ### Cronograma general
 
-| Sprint | Periodo | Actividades principales | Entregable esperado |
-|---|---|---|---|
-| Sprint 1 | 28 de octubre – 3 de noviembre de 2026 | Definición de tecnología, configuración del entorno, tablero Jira y prueba técnica de copia de archivos. | Base técnica preparada y prueba inicial de respaldo. |
-| Sprint 2 | 4 – 10 de noviembre de 2026 | Configuración de origen y destino, respaldo manual y visualización de resultados. | Funcionalidad de respaldo manual. |
-| Sprint 3 | 11 – 17 de noviembre de 2026 | Desarrollo de la restauración completa y de archivos específicos. | Funcionalidad de recuperación de información. |
-| Sprint 4 | 18 – 24 de noviembre de 2026 | Implementación de respaldos automáticos e historial de operaciones. | Automatización y consulta del historial. |
-| Sprint 5 | 25 de noviembre – 1 de diciembre de 2026 | Implementación de verificación de integridad y alertas ante fallos. | Verificación de respaldos y notificaciones. |
-| Sprint 6 | 2 – 8 de diciembre de 2026 | Corrección de errores, pruebas generales, estabilización y preparación de la demostración. | Incremento final preparado para la Demo. |
+La tabla compara lo planificado al inicio con lo que pasó en realidad.
+
+| Sprint | Planificado | Real | Contenido | Resultado |
+|---|---|---|---|---|
+| Sprint 1 | 28 oct – 3 nov | 1 – 10 nov (CR-02) | Habilitadoras HB-01 a HB-04 | No se cumplió el Sprint Goal ([acta](../scrum/sprints/sprint-01/acta-review-retrospective.md)) |
+| Sprint 2 | 4 – 10 nov | 18 – 24 nov | Planificado: HU-01 a HU-03. Real: habilitadoras pendientes y HU-01 a HU-04 (CR-03) | MVP terminado y en revisión |
+| Sprints 3 a 6 | 11 nov – 8 dic | No se realizan | HU-05 a HU-09, estabilización | Fuera del MVP (CR-03) |
+| Entrega | — | 25 nov | Demo del MVP y entrega del Expediente | — |
 
 ### Seguimiento del cronograma
 
@@ -85,5 +87,14 @@ Para mantener los costos dentro de lo establecido aplicamos las siguientes medid
 
 Cualquier gasto no previsto deberá discutirse y documentarse antes de realizarlo.
 
+### Costo estimado
 
+| Recurso | Uso | Costo |
+|---|---|---:|
+| Python 3 y Tkinter | Lenguaje y ventana del producto | ₡0 (software libre) |
+| Git y GitHub (plan gratuito) | Control de versiones | ₡0 |
+| Jira (plan gratuito, hasta 10 usuarios) | Backlog, Sprints y tablero | ₡0 |
+| Computadoras personales y discos locales | Desarrollo y pruebas | ₡0 (equipo que ya tenemos) |
+| **Total en dinero** | | **₡0** |
 
+El costo principal es el tiempo del equipo: 44 horas estimadas para el MVP. Valorado a una tarifa de referencia de [PENDIENTE: tarifa por hora], el costo del esfuerzo sería 44 h × tarifa.

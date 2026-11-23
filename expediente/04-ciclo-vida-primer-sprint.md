@@ -1,6 +1,6 @@
 # Sección 04 — Ciclo de vida del proyecto y primer Sprint
 
-> **Semana:** 5 · **Responsable:** Xavier Fernández Zúñiga · **Estado:** Borrador · **Jira:** API-23
+> **Semana:** 5 · **Responsable:** Xavier Fernández Zúñiga · **Estado:** Borrador · **Jira:** API-23, API-43
 
 ## Ciclo de vida seleccionado y justificación
 
@@ -30,7 +30,7 @@ flowchart LR
 
 ## Primer Sprint: Sprint Goal
 
-**Sprint 1 · Duración:** 1 semana (28 de octubre al 3 de noviembre de 2026)
+**Sprint 1 · Fechas:** 1 al 10 de noviembre de 2026 (se movió por CR-02; la fecha original era del 28 de octubre al 3 de noviembre)
 
 > **Sprint Goal:** Dejar lista la base técnica del proyecto y comprobar que el sistema puede copiar una carpeta a un destino y registrar el resultado.
 
@@ -49,18 +49,18 @@ El primer Sprint se enfoca en **historias habilitadoras**: tareas que todavía n
 - **Reducen el riesgo técnico temprano:** la prueba técnica confirma que el respaldo es posible y permite verificar pronto la compatibilidad con distintos sistemas, una de nuestras restricciones.
 - **Dan transparencia desde el inicio:** con el tablero de Jira, el avance de cada Sprint queda visible para el equipo y el docente.
 
-### Planificación tentativa de los siguientes Sprints
+### Planificación de los Sprints
 
-| Sprint | Fechas | Enfoque |
-|---|---|---|
-| Sprint 1 | 28 oct – 3 nov | Historias habilitadoras (base técnica). |
-| Sprint 2 | 4 – 10 nov | Respaldo manual: configurar origen y destino, ejecutar el respaldo y ver el resultado (HU-01 a HU-03). |
-| Sprint 3 | 11 – 17 nov | Restauración completa y de archivos específicos (HU-04, HU-05). |
-| Sprint 4 | 18 – 24 nov | Respaldos automáticos programados e historial (HU-06, HU-07). |
-| Sprint 5 | 25 nov – 1 dic | Verificación de integridad y alertas (HU-08, HU-09). |
-| Sprint 6 | 2 – 8 dic | Estabilización, pruebas finales y preparación de la Demo. |
+Al inicio planeamos 6 Sprints (del 28 de octubre al 8 de diciembre) para las 9 historias de usuario. La planificación cambió dos veces: CR-02 movió el Sprint 1, y después de la Review del Sprint 1 aprobamos CR-03, que reduce el alcance a un MVP con HU-01 a HU-04. Los dos cambios están en la [Sección 11](11-decisiones-cambios-evidencias.md).
 
-Esta planificación se ajustará al cierre de cada Sprint, según lo aprendido.
+| Sprint | Fechas | Enfoque | Resultado |
+|---|---|---|---|
+| Sprint 1 | 1 – 10 nov | Historias habilitadoras (base técnica). | No se cumplió el Sprint Goal. Ver el [acta](../scrum/sprints/sprint-01/acta-review-retrospective.md). |
+| — | 11 – 17 nov | Sin Sprint activo. | El Sprint 1 quedó abierto en Jira; la Review y la Retrospective se registraron el 18 nov. |
+| Sprint 2 | 18 – 24 nov | MVP: configurar, respaldar, ver el resultado y restaurar (HU-01 a HU-04), las habilitadoras pendientes y el Expediente. | MVP terminado y en revisión. |
+| Entrega | 25 nov | Demo del MVP y entrega del Expediente. | — |
+
+HU-05 a HU-09 quedan fuera de esta entrega y siguen en el Product Backlog para una versión futura.
 
 ## Duración y eventos Scrum
 
