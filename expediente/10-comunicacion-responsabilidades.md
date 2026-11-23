@@ -1,6 +1,6 @@
 # Sección 10 — Comunicación y responsabilidades del equipo
 
-> **Semana:** 7 (Plan de Comunicaciones y Tablero) · 11 (RACI y Working Agreements) · **Responsable:** Xavier Fernández Zúñiga · **Estado:** Borrador · **Jira:** API-30
+> **Semana:** 7 (Plan de Comunicaciones y Tablero) · 10 (Working Agreements) · 11 (RACI) · **Responsable:** Xavier Fernández Zúñiga · **Estado:** Borrador · **Jira:** API-30
 
 ## Plan de Comunicaciones
 
@@ -89,4 +89,25 @@ El Sprint 1 (1 al 10 de noviembre) tiene cargadas las historias habilitadoras (H
 
 ## Working Agreements
 
-> Se completarán en la Semana 11, a partir de las reglas de comunicación de esta sección y de lo aprendido en las Retrospectives.
+> **Versión:** 1 · **Acordados el:** 22 de noviembre de 2026 · **Próxima revisión:** Retrospective del Sprint 2 · **Jira:** API-40
+
+Son las reglas con las que trabajamos los dos. Salen del Plan de Comunicaciones de esta sección y de lo que aprendimos en la Retrospective del Sprint 1. Cada regla se puede revisar: o se cumplió o no se cumplió.
+
+**Puño de cinco:** cada integrante vota con 0 a 5 dedos qué tan de acuerdo está con la regla. Si alguien vota 2 o menos, se conversa y se ajusta la regla antes de aprobarla.
+
+| # | Tema | Acuerdo | Cómo se verifica | Puño de cinco (Xavier / María Paz) |
+|---|---|---|---|---|
+| 1 | Comunicación | Usamos el grupo de WhatsApp del proyecto como canal oficial. Lo que se decida ahí lo anotamos en el ticket de Jira ese mismo día | Cada decisión tiene un comentario en su ticket con la fecha | 5 / 5 |
+| 2 | Comunicación | Respondemos los mensajes del equipo en menos de 24 horas | Revisión del chat en la Retrospective | 5 / 5 |
+| 3 | Ritmo | Hacemos el Daily por WhatsApp los lunes, miércoles y viernes antes de las 9 p. m.: qué hice, qué voy a hacer y qué me bloquea | Hay tres mensajes de Daily por persona cada semana | 5 / 5 |
+| 4 | Ritmo | En el Sprint Planning cada uno dice cuántas horas puede dar esa semana y qué días no va a estar disponible | Queda anotado en el `planning.md` de cada Sprint | 5 / 5 |
+| 5 | Calidad | Toda tarjeta pasa por *En revisión*. El otro integrante la revisa en menos de 48 horas y deja el comentario "Revisado" antes de moverla a *Hecho* | Toda tarjeta en *Hecho* tiene el comentario "Revisado" (API-36) | 5 / 5 |
+| 6 | Calidad | El código entra a `main` por Pull Request, aprobado por el otro integrante y cumpliendo la Definition of Done | Todo cambio en `src/` tiene un Pull Request aprobado en GitHub | 5 / 5 |
+| 7 | Calidad | Cada commit empieza con la clave del ticket de Jira y se sube el mismo día en que se termina el trabajo | `git log` del Sprint: todos los commits tienen la clave `API-` (API-38) | 5 / 5 |
+| 8 | Decisiones | Las decisiones de producto las toma el Product Owner después de escuchar al equipo. Las de proceso, las tomamos entre los dos. Si en 24 horas no hay acuerdo, desempata el PO en producto y la Scrum Master en proceso | Cada decisión registrada en la Sección 11 dice quién la tomó | 5 / 5 |
+| 9 | Conflictos | Un desacuerdo lo planteamos directo entre los dos, por llamada o mensaje privado, hablando del trabajo y no de la persona. Si en 48 horas no se resuelve, la Scrum Master lo lleva a la Retrospective. Si pone en riesgo una entrega, lo consultamos con el docente | Los desacuerdos que se escalaron aparecen en el acta de la Retrospective | 5 / 5 |
+| 10 | Cambios | Todo cambio de alcance o de fecha lo pedimos como ticket en Jira con la etiqueta `cambio` y lo registramos como CR en la Sección 11 antes de trabajarlo | Cada cambio hecho tiene su CR en el [Registro de Solicitudes de Cambio](11-decisiones-cambios-evidencias.md) | 5 / 5 |
+
+Estos acuerdos se revisan en cada Retrospective. Si una regla no se cumplió, se conversa por qué y se decide si se mantiene, se cambia o se quita. Cada versión nueva queda en el [historial de cambios](historial-de-cambios.md).
+
+**Firma:** los acuerdos quedan aprobados con un commit hecho por un integrante y firmado también por el otro con `Co-authored-by`.
