@@ -1,10 +1,10 @@
 # Sección 01 — Problema, oportunidad y Product Goal
 
-> **Semana:** 3 · **Responsable:** Maria Paz Ugalde ARAYA · **Estado:** Borrador
+> **Semana:** 3 · **Responsable:** María Paz Ugalde Araya · **Estado:** Borrador
 
 ## Descripción del problema
 
-Las empresar pierden información valiosa por no contar con respaldos ante fallas de equipo o software, robos, virus o borrados accidentales. Cuando ocurre una pérdida, la recuperación suele ser lenta, parcial o imposible, lo que afecta la continuidad de sus actividades generando pérdida de tiempo, dinero y reduce la confianza en sus sistemas.
+Las personas y pequeñas organizaciones pierden información valiosa por no contar con respaldos ante fallas de equipo o software, robos, virus o borrados accidentales. Cuando ocurre una pérdida, la recuperación suele ser lenta, parcial o imposible, lo que afecta la continuidad de sus actividades generando pérdida de tiempo, dinero y reduce la confianza en sus sistemas.
 
 Muchas veces los respaldos no se hacen porque dependen de que alguien se acuerde de hacerlos, porque el proceso es complicado o porque nadie verifica si el respaldo realmente funcionó.
 

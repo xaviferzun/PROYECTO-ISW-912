@@ -19,10 +19,10 @@
 
 ## Integrantes y roles Scrum
 
-| Integrante | Carné | Rol Scrum | Correo |
-|---|---|---|---|
-| María Paz Ugalde Araya | [PENDIENTE: carné de María Paz] | _Scrum Master_ · Developer | ugaldemariapaz4@gmail.com |
-| Xavier Fernández Zúñiga | 208540653 | _Product Owner_ · Developer | xaviferzun@gmail.com |
+| Integrante | Rol Scrum | Correo |
+|---|---|---|
+| María Paz Ugalde Araya | _Scrum Master_ · Developer | ugaldemariapaz4@gmail.com |
+| Xavier Fernández Zúñiga | _Product Owner_ · Developer | xaviferzun@gmail.com |
 
 
 ## Project Charter (borrador)
