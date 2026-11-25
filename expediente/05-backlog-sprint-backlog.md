@@ -123,6 +123,7 @@ El equipo da seguimiento al trabajo con **Jira (plan gratuito)**, conectado con 
 
 Un elemento pasa a *Hecho* solo cuando cumple sus criterios de aceptación, su resultado está subido al repositorio y el otro integrante lo revisó (acción API-36 de la Retrospective del Sprint 1). La Definition of Done completa está en la [Sección 09](09-calidad-dod.md).
 
-![Tablero de Jira — Sprint 1](../evidencias/jira-sprint-01.png)
+No se guardó una captura del tablero durante el Sprint 1. Esta es la del cierre del proyecto (Sprint 2):
 
-<!-- PENDIENTE (API-10): agregar la captura del tablero en evidencias/jira-sprint-01.png -->
+![Tablero de Jira — Sprint 2](../evidencias/jira-sprint-02.png)
+

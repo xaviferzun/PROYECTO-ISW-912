@@ -52,12 +52,14 @@ Un cambio aprobado no entra al Sprint en curso salvo que el equipo esté de acue
 | Evidencia | Dónde está |
 |---|---|
 | Acta de Sprint Review y Retrospective del Sprint 1 | [`scrum/sprints/sprint-01/acta-review-retrospective.md`](../scrum/sprints/sprint-01/acta-review-retrospective.md) |
+| Acta de Sprint Review y Retrospective del Sprint 2 | [`scrum/sprints/sprint-02/acta-review-retrospective.md`](../scrum/sprints/sprint-02/acta-review-retrospective.md) |
+| Prueba manual del MVP (24 nov) | [`evidencias/demo-mvp-2026-11-24.png`](../evidencias/demo-mvp-2026-11-24.png) y [Sección 09](09-calidad-dod.md) |
 | Código del MVP | [`src/`](../src) (cómo ejecutarlo en el [README](../README.md)) |
 | Pruebas automáticas (9 pruebas, todas pasan) | [`tests/test_nucleo.py`](../tests/test_nucleo.py) |
 | Relación entre commits y tickets | `git log`: los commits del Sprint 2 empiezan con la clave `API-` |
 | Working Agreements firmados por los dos | [Sección 10](10-comunicacion-responsabilidades.md), commit `9ec400b` con `Co-authored-by` |
 | Historial de cambios del Expediente | [`historial-de-cambios.md`](historial-de-cambios.md) |
-| Tablero de Jira | Proyecto `API` en Jira, captura en `evidencias/` |
+| Tablero de Jira | Proyecto `API` en Jira, captura en [`evidencias/jira-sprint-02.png`](../evidencias/jira-sprint-02.png) |
 
 ## Preparación de la Demo
 

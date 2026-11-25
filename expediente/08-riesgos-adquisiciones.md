@@ -78,7 +78,7 @@ Cada tabla indica la acción concreta, el **disparador** (la señal que activa e
 |---|---|
 | Nivel inicial | Alto (3 × 4 = 12) |
 | Estrategia | Mitigar |
-| Acción concreta | El producto usa solo la librería estándar de Python (D-03) y rutas con `pathlib`. La única parte que depende del sistema operativo es abrir la carpeta de un respaldo, que tiene una opción para Windows, macOS y Linux. Las pruebas automáticas ya usan nombres con espacios, tildes y «ñ» (`clientes ñandú.csv`, `año 2026`). Antes de pasar una historia con código a *Hecho* se prueba en la máquina de cada integrante. [PENDIENTE: sistema operativo y versión de Python de cada integrante.] |
+| Acción concreta | El producto usa solo la librería estándar de Python (D-03) y rutas con `pathlib`. La única parte que depende del sistema operativo es abrir la carpeta de un respaldo, que tiene una opción para Windows, macOS y Linux. Las pruebas automáticas ya usan nombres con espacios, tildes y «ñ» (`clientes ñandú.csv`, `año 2026`). Antes de pasar una historia con código a *Hecho* se prueba en la máquina de cada integrante. Se probó en Windows con Python 3.14.0 (máquina de Xavier). La máquina de María Paz no se llegó a probar ([Sección 09](09-calidad-dod.md)). |
 | Disparador | Una prueba falla en una de las dos máquinas, o un archivo con nombre especial no aparece en el respaldo. |
 | Plan de contingencia | Registrar un Error en Jira con el mensaje y el sistema operativo, reproducirlo en la otra máquina y corregirlo. Si no se corrige antes del 24 de noviembre, se anota como limitación en el Expediente y la Demo se hace en la máquina donde funciona. |
 | Dueño | Xavier |
@@ -130,7 +130,7 @@ Cada tabla indica la acción concreta, el **disparador** (la señal que activa e
 |---|---|
 | Nivel inicial | Alto (3 × 4 = 12) |
 | Estrategia | Mitigar |
-| Acción concreta | La ventana tiene tres partes (Configuración, Respaldo y Respaldos disponibles) y los mensajes de error indican la causa. Se hace la prueba con usuarios de la [Sección 09](09-calidad-dod.md) con al menos una persona que no sea del equipo. [PENDIENTE: persona de prueba y fecha.] |
+| Acción concreta | La ventana tiene tres partes (Configuración, Respaldo y Respaldos disponibles) y los mensajes de error indican la causa. Se hace la prueba con usuarios de la [Sección 09](09-calidad-dod.md) con al menos una persona que no sea del equipo. Esta prueba no se hizo antes de la entrega y queda para una versión futura. |
 | Disparador | La persona de prueba no completa 3 de las 4 tareas sin ayuda, o no entiende un mensaje. |
 | Plan de contingencia | Cambiar los textos de los botones y mensajes que causaron la duda y repetir la prueba. Si no hay tiempo, se anota en el Product Backlog como mejora. |
 | Dueño | Xavier |
@@ -195,8 +195,8 @@ Jira y GitHub son servicios de terceros (R-09). El repositorio y el sitio de Jir
 
 | Servicio | Qué podría pasar | Qué ya tenemos | Pasos de salida |
 |---|---|---|---|
-| **Jira** | Se pierde el acceso, el plan gratuito cambia o el servicio no responde por más de 24 horas. | Capturas del tablero en `evidencias/`. Las historias y sus criterios están en la [Sección 06](06-alcance-product-backlog.md). Cada commit lleva la clave `API-` de su ticket. | 1. Al cierre de cada Sprint, exportar los tickets a CSV y guardarlos en `evidencias/` [PENDIENTE: primera exportación el 24 de noviembre].<br>2. Si Jira no vuelve, llevar el estado del trabajo en GitHub Projects, la alternativa que se evaluó en D-01, usando el CSV.<br>3. Anotar la decisión en la [Sección 11](11-decisiones-cambios-evidencias.md). |
-| **GitHub** | Se pierde el acceso al repositorio o el servicio no responde el día de la entrega. | Cada integrante tiene un clon local con todo el historial. | 1. Antes de la entrega, crear un `.zip` del repositorio con `git archive --format=zip -o PROYECTO-ISW-912.zip HEAD`.<br>2. Si GitHub no vuelve, crear un repositorio nuevo en otro servicio gratuito y ejecutar `git remote set-url origin <url-nueva>` y `git push --all`.<br>3. Avisar al docente del cambio de enlace. [PENDIENTE: confirmar con el docente cómo entregar si GitHub falla.] |
+| **Jira** | Se pierde el acceso, el plan gratuito cambia o el servicio no responde por más de 24 horas. | Capturas del tablero en `evidencias/`. Las historias y sus criterios están en la [Sección 06](06-alcance-product-backlog.md). Cada commit lleva la clave `API-` de su ticket. | 1. Al cierre de cada Sprint, exportar los tickets a CSV y guardarlos en `evidencias/` (no se llegó a hacer durante el curso; el historial de commits con la clave `API-` cumple esa función).<br>2. Si Jira no vuelve, llevar el estado del trabajo en GitHub Projects, la alternativa que se evaluó en D-01, usando el CSV.<br>3. Anotar la decisión en la [Sección 11](11-decisiones-cambios-evidencias.md). |
+| **GitHub** | Se pierde el acceso al repositorio o el servicio no responde el día de la entrega. | Cada integrante tiene un clon local con todo el historial. | 1. Antes de la entrega, crear un `.zip` del repositorio con `git archive --format=zip -o PROYECTO-ISW-912.zip HEAD`.<br>2. Si GitHub no vuelve, crear un repositorio nuevo en otro servicio gratuito y ejecutar `git remote set-url origin <url-nueva>` y `git push --all`.<br>3. Avisar al docente del cambio de enlace. |
 
 **Dueños:** María Paz hace las exportaciones y el `.zip`. Xavier mantiene las cuentas y confirma que María Paz tiene permiso de escritura en el repositorio y en el proyecto de Jira.
 

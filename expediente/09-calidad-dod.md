@@ -77,7 +77,7 @@ Validar es comprobar que lo construido cumple los criterios de aceptación de la
 |---|---|
 | Confiabilidad del respaldo | Pruebas automáticas de respaldo con archivo con error y origen inválido, y revisión del log en el paso 4 de la Demo. |
 | Integridad | Las pruebas comparan byte por byte lo copiado con el original y comprueban lo restaurado. La verificación con huellas hash (HU-08) quedó fuera por CR-03. |
-| Usabilidad | Prueba con usuarios de la tabla de criterios, hecha en la Sprint Review con una persona que no sea del equipo. [PENDIENTE: persona de prueba.] |
+| Usabilidad | Prueba con usuarios de la tabla de criterios, hecha en la Sprint Review con una persona que no sea del equipo. No se hizo antes de la entrega. La primera revisión externa es la Demo con el docente el 25 de noviembre. |
 | Compatibilidad | Las pruebas y el guion se ejecutan en la máquina de cada integrante. |
 
 ### Resultado de la prueba manual

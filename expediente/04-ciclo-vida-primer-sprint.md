@@ -57,7 +57,7 @@ Al inicio planeamos 6 Sprints (del 28 de octubre al 8 de diciembre) para las 9 h
 |---|---|---|---|
 | Sprint 1 | 1 – 10 nov | Historias habilitadoras (base técnica). | No se cumplió el Sprint Goal. Ver el [acta](../scrum/sprints/sprint-01/acta-review-retrospective.md). |
 | — | 11 – 17 nov | Sin Sprint activo. | El Sprint 1 quedó abierto en Jira; la Review y la Retrospective se hicieron el 18 nov. |
-| Sprint 2 | 18 – 24 nov | MVP: configurar, respaldar, ver el resultado y restaurar (HU-01 a HU-04), las habilitadoras pendientes y el Expediente. | MVP terminado y en revisión. |
+| Sprint 2 | 18 – 24 nov | MVP: configurar, respaldar, ver el resultado y restaurar (HU-01 a HU-04), las habilitadoras pendientes y el Expediente. | Sprint Goal cumplido: MVP terminado y aceptado ([acta](../scrum/sprints/sprint-02/acta-review-retrospective.md)). |
 | Entrega | 25 nov | Demo del MVP y entrega del Expediente. | — |
 
 HU-05 a HU-09 quedan fuera de esta entrega y siguen en el Product Backlog para una versión futura.

@@ -57,7 +57,7 @@ La tabla compara lo planificado al inicio con lo que pasó en realidad.
 | Sprint | Planificado | Real | Contenido | Resultado |
 |---|---|---|---|---|
 | Sprint 1 | 28 oct – 3 nov | 1 – 10 nov (CR-02) | Habilitadoras HB-01 a HB-04 | No se cumplió el Sprint Goal ([acta](../scrum/sprints/sprint-01/acta-review-retrospective.md)) |
-| Sprint 2 | 4 – 10 nov | 18 – 24 nov | Planificado: HU-01 a HU-03. Real: habilitadoras pendientes y HU-01 a HU-04 (CR-03) | MVP terminado y en revisión |
+| Sprint 2 | 4 – 10 nov | 18 – 24 nov | Planificado: HU-01 a HU-03. Real: habilitadoras pendientes y HU-01 a HU-04 (CR-03) | Sprint Goal cumplido: MVP terminado y aceptado |
 | Sprints 3 a 6 | 11 nov – 8 dic | No se realizan | HU-05 a HU-09, estabilización | Fuera del MVP (CR-03) |
 | Entrega | — | 25 nov | Demo del MVP y entrega del Expediente | — |
 
@@ -97,4 +97,4 @@ Cualquier gasto no previsto deberá discutirse y documentarse antes de realizarl
 | Computadoras personales y discos locales | Desarrollo y pruebas | ₡0 (equipo que ya tenemos) |
 | **Total en dinero** | | **₡0** |
 
-El costo principal es el tiempo del equipo: 44 horas estimadas para el MVP. Valorado a una tarifa de referencia de [PENDIENTE: tarifa por hora], el costo del esfuerzo sería 44 h × tarifa.
+El costo principal es el tiempo del equipo: 44 horas estimadas para el MVP. No se valora en dinero porque es un proyecto académico y el equipo no recibe pago. Por eso el esfuerzo se controla en horas y puntos, no en colones.

@@ -81,7 +81,9 @@ Esta regla es la base de la Definition of Done que se detallará en la Sección 
 
 El Sprint 1 (1 al 10 de noviembre) tiene cargadas las historias habilitadoras (HB-01 a HB-04) y las tareas del Expediente de esta etapa, cada una con su responsable visible.
 
-![Tablero de Jira — Sprint 1](../evidencias/jira-sprint-01.png)
+No se guardó una captura del tablero durante el Sprint 1. Esta es la del cierre del proyecto (Sprint 2):
+
+![Tablero de Jira — Sprint 2](../evidencias/jira-sprint-02.png)
 
 ## Matriz de responsabilidades (RACI)
 
@@ -121,7 +123,7 @@ Define quién hace, quién responde y a quién se consulta o informa en cada act
 - **Proceso:** la Scrum Master responde porque los eventos se hagan, la revisión por pares se cumpla y los Sprints se cierren a tiempo. Son los puntos que fallaron en el Sprint 1 ([acta](../scrum/sprints/sprint-01/acta-review-retrospective.md)).
 - **Expediente:** cada sección la responde quien aparece como responsable en su encabezado, y la otra persona la revisa antes de pasar la tarjeta a *Hecho*. Por eso queda como C.
 - **Docente:** evalúa el trabajo. En la matriz aparece como informado de lo que recibe (commits, Jira, Review, Demo) y como consultado en el Expediente, que se revisa con él cada clase y en los cambios que mueven una fecha de entrega.
-- **Sección 12:** el encabezado de esa sección dice «por definir». Se asignó a María Paz como propuesta. [PENDIENTE: confirmar quién responde por la Sección 12 y el Informe Final.]
+- **Sección 12:** María Paz responde por ella (A/R). Como no estuvo disponible el 24 de noviembre, Xavier redactó la versión final y queda como corresponsable en el encabezado de la sección.
 - **Desacuerdos:** si dos personas no se ponen de acuerdo sobre quién responde por una actividad, se aplican los Working Agreements 8 y 9 de esta sección.
 
 ## Working Agreements
