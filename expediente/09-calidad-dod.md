@@ -82,17 +82,19 @@ Validar es comprobar que lo construido cumple los criterios de aceptación de la
 
 ### Resultado de la prueba manual
 
-Se llena durante el ensayo del lunes 23 de noviembre con *Pasó* o *No pasó* y, si no pasó, el número del ticket de Error.
+Ensayo del martes 24 de noviembre en la máquina de Xavier (Windows, Python 3.14.0), con las carpetas `demo-origen` y `demo-destino`. Captura: [`evidencias/demo-mvp-2026-11-24.png`](../evidencias/demo-mvp-2026-11-24.png).
 
 | Paso de la Demo | Historia | Máquina de Xavier | Máquina de María Paz |
 |---|---|---|---|
-| 1. Abrir la aplicación | — | [PENDIENTE] | [PENDIENTE] |
-| 2. Configurar origen y destino | HU-01 | [PENDIENTE] | [PENDIENTE] |
-| 3. Respaldar ahora | HU-02 | [PENDIENTE] | [PENDIENTE] |
-| 4. Ver log | HU-03 | [PENDIENTE] | [PENDIENTE] |
-| 5. Borrar `clientes.txt` | — | [PENDIENTE] | [PENDIENTE] |
-| 6. Restaurar el respaldo | HU-04 | [PENDIENTE] | [PENDIENTE] |
-| 7. Correr las pruebas automáticas | — | [PENDIENTE] | [PENDIENTE] |
+| 1. Abrir la aplicación | — | Pasó | No se probó |
+| 2. Configurar origen y destino | HU-01 | Pasó | No se probó |
+| 3. Respaldar ahora | HU-02 | Pasó | No se probó |
+| 4. Ver log | HU-03 | Pasó | No se probó |
+| 5. Borrar `clientes.txt` | — | Pasó | No se probó |
+| 6. Restaurar el respaldo | HU-04 | Pasó | No se probó |
+| 7. Correr las pruebas automáticas | — | Pasó (9 de 9) | No se probó |
+
+María Paz no pudo hacer el ensayo en su máquina antes de la entrega, así que la compatibilidad quedó comprobada en un solo equipo. Queda como acción para la Retrospective del Sprint 2.
 
 ### Si una validación falla
 
