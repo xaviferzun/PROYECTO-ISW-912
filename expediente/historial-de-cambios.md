@@ -27,4 +27,15 @@
 | 22 nov 2026 | 10 Comunicación | Working Agreements, versión 1, con puño de cinco | Xavier y María Paz | API-40 | `9ec400b` |
 | 22 nov 2026 | Acta Sprint 1 y 11 Cambios | Datos de la reunión, Daily, aprobación del acta y de CR-03 | Xavier | API-26 | `37aa799` |
 | 22 nov 2026 | 11 Decisiones y evidencias | Registro de decisiones D-01 a D-06, tabla de evidencias y guion de la Demo | Xavier | API-31, API-33 | `81de388` |
-| 22 nov 2026 | Historial de cambios | Fechas y commits reales de las filas del 22 de noviembre | Xavier | API-41 | este commit |
+| 22 nov 2026 | Historial de cambios | Fechas y commits reales de las filas del 22 de noviembre | Xavier | API-41 | `917a68f` |
+| 22 nov 2026 | 08 Riesgos | Respuestas a los riesgos, mapa de calor, oportunidad O-01 y plan de salida para Jira y GitHub | María Paz | API-42 | `789423d` |
+| 22 nov 2026 | 09 Calidad | Definition of Done y estrategia de validación | María Paz | API-29 | `2d01dc4` |
+| 22 nov 2026 | 10 Comunicación | Matriz de responsabilidades (RACI) | María Paz | API-45 | `0514b66` |
+| 22 nov 2026 | 00 Portada | Clave de Jira en el encabezado | María Paz | API-44 | `0a8dada` |
+| 24 nov 2026 | 00 Portada y 01 Problema | Se quita la columna de carné y se corrige la redacción de la 01 | Xavier | API-44 | `3b5c5b8` |
+| 24 nov 2026 | 09 Calidad y evidencias | Resultado de la prueba manual del MVP y captura de la Demo | Xavier | API-29 | `a70f301` |
+| 24 nov 2026 | 12 Cierre | Incremento final, resultados frente al Product Goal, Informe Final y lecciones aprendidas | Xavier | API-32 | `aab6c99` |
+| 24 nov 2026 | Acta Sprint 2 | Acta de Sprint Review y Sprint Retrospective del Sprint 2 | Xavier | API-26 | `449c7b8` |
+| 24 nov 2026 | 04, 05, 07, 08, 09, 10 y 11 | Pendientes resueltos y evidencias del Sprint 2 enlazadas | Xavier | API-24 | `ebb48fe` |
+| 24 nov 2026 | Evidencias | Captura del tablero de Jira al cierre del Sprint 2 | Xavier | API-44 | `778b500` |
+| 24 nov 2026 | Historial de cambios | Filas de los commits del 22 al 24 de noviembre | Xavier | API-41 | este commit |
